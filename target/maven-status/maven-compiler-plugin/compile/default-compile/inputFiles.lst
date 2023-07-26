@@ -1,0 +1,17 @@
+/Users/angiezapata/Desktop/doubleV/src/main/java/com/example/DoubleV/repository/TicketRepository.java
+/Users/angiezapata/Desktop/doubleV/src/main/java/com/example/DoubleV/service/TicketService.java
+/Users/angiezapata/Desktop/doubleV/src/main/java/com/example/DoubleV/Error/ErrorMessage.java
+/Users/angiezapata/Desktop/doubleV/src/main/java/com/example/DoubleV/service/mapper/TicketMapper.java
+/Users/angiezapata/Desktop/doubleV/src/main/java/com/example/DoubleV/ServletInitializer.java
+/Users/angiezapata/Desktop/doubleV/src/main/java/com/example/DoubleV/service/TicketHelper.java
+/Users/angiezapata/Desktop/doubleV/src/main/java/com/example/DoubleV/dto/TicketFilterRequest.java
+/Users/angiezapata/Desktop/doubleV/src/main/java/com/example/DoubleV/dto/ErrorResponse.java
+/Users/angiezapata/Desktop/doubleV/src/main/java/com/example/DoubleV/Error/BaseException.java
+/Users/angiezapata/Desktop/doubleV/src/main/java/com/example/DoubleV/dto/PaginationResponse.java
+/Users/angiezapata/Desktop/doubleV/src/main/java/com/example/DoubleV/controller/TicketController.java
+/Users/angiezapata/Desktop/doubleV/src/main/java/com/example/DoubleV/service/TicketServiceImpl.java
+/Users/angiezapata/Desktop/doubleV/src/main/java/com/example/DoubleV/Error/NotFoundElementException.java
+/Users/angiezapata/Desktop/doubleV/src/main/java/com/example/DoubleV/dto/TicketRequest.java
+/Users/angiezapata/Desktop/doubleV/src/main/java/com/example/DoubleV/DoubleVApplication.java
+/Users/angiezapata/Desktop/doubleV/src/main/java/com/example/DoubleV/dto/TicketResponse.java
+/Users/angiezapata/Desktop/doubleV/src/main/java/com/example/DoubleV/model/TicketEntity.java

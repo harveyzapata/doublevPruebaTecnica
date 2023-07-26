@@ -1,0 +1,11 @@
+services:
+  db:
+    image: pruebadvp
+    container_name: postgres
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: user
+      POSTGRES_USER: posterU
+      POSTGRES_DB: base
+    ports:
+      - 5435:5432
