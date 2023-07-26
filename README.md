@@ -21,6 +21,7 @@ Docker
 ```
 Run the following commands to create the PostgreSQL database and build the docker container
 ```
+cd src/main/java/com/example/DoubleV/dock/
 docker build -t pruebadvp .
 docker compose up -d    
 
