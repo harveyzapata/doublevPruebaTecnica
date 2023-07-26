@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "dcf57456-bc85-4e0a-af12-c98dd7b1fb19",
+		"name": "ticketsApi",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getTicketsByID",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "GetAllTicketsPaginationWithFilter",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/tickets?page=0&size=100",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"tickets"
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "0"
+						},
+						{
+							"key": "size",
+							"value": "100"
+						},
+						{
+							"key": "id",
+							"value": "6",
+							"disabled": true
+						},
+						{
+							"key": "status",
+							"value": "Abierto",
+							"disabled": true
+						},
+						{
+							"key": "user",
+							"value": "Pero",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateTicket",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"usuario\": \"Mati\",\r\n    \"fechaCreacion\": \"2023-08-24\",\r\n    \"fechaActualizacion\": \"2024-08-24\",\r\n    \"estatus\": \"Abierto\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/v1/tickets",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"tickets"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateTicket",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"user\": \"user\",\r\n    \"creationDate\": \"2023-08-24\",\r\n    \"updateDate\": \"2024-08-24\",\r\n    \"status\": \"Abierto\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8080/v1/tickets/1",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"tickets",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete Ticket by id",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/v1/tickets/3",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"v1",
+						"tickets",
+						"3"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
